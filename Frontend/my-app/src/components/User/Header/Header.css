@@ -1,0 +1,97 @@
+.navbar {
+  background: rgb(248, 244, 239);
+  border-bottom: 1px solid black !important;
+}
+#logoMobile {
+  display: none;
+}
+#logoRight .nav-item{
+  margin: 0 10px;
+}
+#logoRight .nav-item .dropdown-menu {
+  border: none;
+  min-width: 120px !important;
+}
+#logoRight .nav-item .dropdown-item {
+  padding: 10px !important;
+  color: #1976D2 !important;
+}
+.navbar-brand{
+  padding-left: 60px !important;
+}
+.App-logo {
+  max-width: 50px;
+  max-height: 50px;
+}
+.nav-link {
+  color: #1976D2 !important;
+  font-weight: 500 !important;
+  padding: 20px !important;
+}
+.nav-item:hover {
+  background: #e8e6e6;
+}
+.navbar-toggler {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+  transition: all 0.3s ease-in-out;
+}
+.nav-item.dropdown .dropdown-item:hover {
+  background: #e8e6e6;
+}
+
+.nav-item.dropdown .dropdown-menu {
+  background-color: rgb(248, 244, 239);
+  border: none;
+}
+.dropdown-item {
+  padding: 10px !important;
+  color: #1976D2 !important;
+}
+
+@media screen and (max-width: 576px) {
+  #logoDesktop {
+    display: none;
+  }
+  #logoMobile {
+    display: block;
+    margin-right: 0px !important;
+  }
+  #logoRight {
+    flex-direction: row !important;
+    padding-right: 0px !important;
+  }
+  .navbar-collapse {
+    padding: 10px;
+  }
+  .nav-link {
+    padding: 10px !important;
+  }
+  .navbar-nav {
+    text-align: left;
+  }
+  .nav-link:hover {
+    border-bottom: none;
+  }
+  .nav-item {
+    margin-bottom: 5px;
+  }
+  .dropdown-menu.show {
+    display: block;
+  }
+  .dropdown-menu {
+    position: static;
+  }
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: none;
+  }
+
+  .nav-item.dropdown.show .dropdown-menu {
+    display: block;
+  }
+}

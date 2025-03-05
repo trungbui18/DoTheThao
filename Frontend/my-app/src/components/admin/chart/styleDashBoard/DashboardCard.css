@@ -1,0 +1,129 @@
+.GroupCard {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 80px;
+  text-align: center;
+  flex-wrap: wrap; /* Cho phép phần tử trong GroupCard tự động xuống dòng */
+}
+
+.GroupCard .card {
+  margin: 5x;
+  width: 250px;
+  height: 150px;
+  border-radius: 12px;
+  color: aliceblue;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.GroupCard .card p {
+  margin-top: 0px;
+  font-size: 20px;
+}
+
+.GroupCard .card .icon {
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+#cardCustomer {
+  background-color: #6610f2;
+}
+
+#cardInCome {
+  background-color: #0d6efd;
+}
+
+#cardOrder {
+  background-color: #fd7e14;
+}
+
+#cardProduct {
+  background-color: #dc3545;
+}
+
+@media (max-width: 1200px) {
+  .GroupCard {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .GroupCard .card {
+    width: 45%;
+    height: 200px;
+    font-size: 18px;
+  }
+
+  .GroupCard .card .icon {
+    font-size: 40px;
+  }
+
+  .chart {
+    width: 90%;
+  }
+}
+
+@media (max-width: 880px) {
+  .chart {
+    width: 100%;
+  }
+
+  .GroupCard .card {
+    width: 48%;
+    height: 220px;
+    font-size: 22px;
+  }
+
+  .GroupCard .card .icon {
+    font-size: 40px;
+  }
+}
+
+/* Khi màn hình nhỏ hơn 680px */
+@media (max-width: 680px) {
+  .GroupCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .GroupCard .card {
+    width: 80%; /* Giảm bớt kích thước, chiếm 80% chiều rộng */
+    height: 180px;
+    font-size: 18px;
+    margin-bottom: 20px; /* Thêm khoảng cách giữa các thẻ card */
+  }
+
+  .chart {
+    width: 100%;
+  }
+
+  .GroupCard .card .icon {
+    font-size: 35px;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+}
+
+/* Khi màn hình rất nhỏ dưới 450px */
+@media (max-width: 450px) {
+  .GroupCard .card {
+    width: 80%; /* Giảm bớt kích thước, chiếm 80% chiều rộng */
+    height: 180px;
+    font-size: 18px;
+    margin-bottom: 20px; /* Thêm khoảng cách giữa các thẻ card */
+  }
+
+  .chart {
+    width: 100%;
+  }
+
+  /* Hiển thị lại các thẻ khi màn hình lớn hơn */
+  .chart .chartWrapper {
+    width: 100%;
+  }
+}

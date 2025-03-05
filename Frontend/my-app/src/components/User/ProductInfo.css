@@ -1,0 +1,58 @@
+.product-info {
+    text-align: left;
+  }
+  
+  .product-info h1 {
+    margin-bottom: 20px;
+  }
+  
+  .product-info .price {
+    margin-bottom: 20px;
+  }
+  
+  .product-info .soLuong {
+    display: flex;
+    height: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .product-info .soLuong div {
+    width: 100px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .product-info .soLuong button {
+    width: 30px;
+    margin: 0 10px;
+  }
+  
+  .product-info .soLuong input {
+    width: 60px;
+    text-align: center;
+    height: 30px ;
+  }
+  
+  .product-info .size {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .product-info .size div {
+    width: 100px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .product-info .btn {
+    border-radius: 0 !important;
+    margin-top: 20px;
+  }
+  .btn-group .btn {
+    margin: 5px;
+    width: 50px !important;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  

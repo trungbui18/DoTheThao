@@ -1,0 +1,9 @@
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Thêm hiệu ứng chuyển động và bóng */
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Di chuyển lên một chút khi hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Thêm bóng để tạo cảm giác nổi lên */
+}
+

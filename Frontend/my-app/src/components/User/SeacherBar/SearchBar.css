@@ -1,0 +1,155 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    background: rgba(204, 204, 204, 0.5);
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background: white !important;
+    width: 80% !important;
+    height: 90%;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .searchBar{
+    justify-content: center;
+    display: flex;
+    max-height: 40px;
+  }
+  .search-btn {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-left: none;
+    cursor: pointer;
+    width: 40px;
+  }
+  
+  input {
+    background-color: white;
+    width:60%;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  .modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    background: transparent;
+    color: #333;
+    cursor: pointer;
+  }
+  .product-item{
+    display: flex;
+    max-height: 70px;
+  }
+  .product-results{
+    height: 70% !important;
+  }
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 600px;
+    position: relative;
+  }
+  
+  .modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .product-results{
+    margin-left: 20px;
+  }
+  
+  .product-results .product-item {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+    max-height: 100px;
+  }
+  .product-results .product-item:hover{
+    background: rgb(200, 199, 199);
+  }
+  
+  .product-results .product-item img {
+    margin-right: 20px;
+    border-radius: 5px;
+  }
+  
+  .infoProduct .nameProduct {
+    text-align: left;
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .infoProduct .priceProduct {
+    margin: 5px 0 0;
+    color: #888;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .more-results {
+    font-style: italic;
+    color: #999;
+    text-align: center;
+  }
+  
+  
+  @media screen and (max-width: 576px) {
+    .modal-content {
+      background: white !important;
+      width: 100% !important;
+      height: 100%;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+      position: relative;
+    }
+    
+    
+  }
